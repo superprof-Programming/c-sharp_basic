@@ -11,14 +11,10 @@
 // Namespace declaration this will allow us to user the System namespace
 using System;
 
-// Our C# station namespace
 namespace Hello_world
 {
-    // Program start class
     class Program
     {
-        // This is a function called Main()
-        // all programs in C# must have it
         static void Main()
         {
             // Send "Hello World!" to the Console
@@ -43,6 +39,10 @@ namespace Hello_world
             
             // Print out the fist character at index 0 from fullname
             Console.WriteLine(Fullname[0]);
+
+            Student student = new Student();
+            student.name = "Faze";
+            student.print();
         }
     }
 }
